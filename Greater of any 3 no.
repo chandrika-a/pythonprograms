@@ -1,0 +1,11 @@
+a=int(input("Enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("Enter a number:"))
+if a>b and a>c:
+    print("a is greater")
+elif b>a and b>c:
+    print("b is greater")
+elif a==b and a==c:
+    print("All are equal")
+else:
+    print("c is greater")
